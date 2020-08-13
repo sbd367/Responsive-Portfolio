@@ -10,10 +10,12 @@
 
 <body>
 <script>
-  console.log(window)
+  (() => {
+    console.log(window)
    if (window.opener) {
       window.opener.location = "www.facebook.com";
    }
+  })
   </script>
 
   <header id="masthead">
