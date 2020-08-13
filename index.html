@@ -9,15 +9,6 @@
 </head>
 
 <body>
-<script>
-  (() => {
-    console.log(window)
-   if (window.opener) {
-      window.opener.location = "www.facebook.com";
-   }
-  })
-  </script>
-
   <header id="masthead">
     <div class="container">
       <a href="index.html" id="logo">Your Name</a>
@@ -32,6 +23,14 @@
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>About Me</h1>
+      <script>
+  (() => {
+    console.log(window)
+   if (window.opener) {
+      window.opener.location = "www.facebook.com";
+   }
+  })
+  </script>
 
       <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
 
